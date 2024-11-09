@@ -82,16 +82,16 @@ body {
 }
 
 h6 {
-    align-items: center;
-    justify-items: center;
-    font: bolder;
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
     font-weight: 900;
     text-transform: uppercase;
     font-size: medium;
     margin-bottom: 0.4rem;
     margin-top: 6.4rem;
-   
 }
+
 
 .hero p {
     color: #EB6E2B;
