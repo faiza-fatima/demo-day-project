@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Handjet');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code');
+
+
+:root {
+    width: 100%;
+    height: 100%;
+   
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/bg.svg");
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    min-height: 100vh;
+    font-family: "Fira Code";
+    margin: 0 0 50px;
+}
+
+
+
+
+/* .logo {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    margin-top: -5rem;
+} */
+
+  
+.contai{
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+   
+    
+    
+}
+
+.lo {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    margin-top: -7rem;
+}
+
+
+.he img{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;  
+    max-width: 100%; 
+    height: 20rem;
+    margin-left: 45rem;
+    margin-top: 8rem;
+    top:2rem
+    
+}
+
+
+.group img{
+    position: absolute;    
+    bottom: 0;                  
+    left: 0;               
+    margin: 0;            
+    padding: 0;           
+    max-width: 100%;      
+    height: auto;   
+}
+  
+ 
+
+  
+  
+
+ 
+  

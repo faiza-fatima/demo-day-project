@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Handjet');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code');
+
+
+:root {
+    width: 100%;
+    height: 100%;
+   
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("../assets/bg.svg");
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    min-height: 100vh;
+    font-family: "Fira Code";
+    margin: 0 ;
+}
+
+
+  
+.contain {
+    background-image: url("../assets/bg.svg");
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    min-height: 100vh;
+    font-family: "Fira Code", monospace;
+    margin: 0;
+    
+}
+
+
+
+.log {
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    margin-top: -3rem;
+}
+
+.her p {
+    color: #EB6E2B;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Handjet";
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 7.6rem;
+    text-transform: uppercase;
+    margin-top: 8rem;
+   
+}
+
+.her img{
+    
+    display: flex;
+    height: 214px;
+    justify-content: flex-end; 
+    align-items: center;
+    max-width: 100%; 
+    height: auto;
+    margin-left: 25rem;
+    margin-top: -18rem;
+}
+
+.cat{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px; 
+    height: auto; 
+    margin: -7px;
+    z-index: 10; 
+}
+ 
+
+  
